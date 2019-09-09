@@ -126,6 +126,7 @@ header .logo {
   border: 1px solid black;
   cursor: pointer;
   width: 60%;
+  max-width: 180px;
 }
 
 .cta .cta-text button:hover {
