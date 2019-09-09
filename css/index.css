@@ -211,6 +211,15 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
     }
+    .cta img{
+        display: none;
+    }
+    .cta{
+        display: block;
+    }
+    .cta-text{
+        margin-top: 70px;
+    }
     body{
         background: blue;
     }
