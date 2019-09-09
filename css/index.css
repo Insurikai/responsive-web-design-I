@@ -206,15 +206,9 @@ footer {
 /* Media Queries */
 
 /* Tablet */
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+@media screen and (max-width: 800px){
+    body{
+        background: blue;
     }
 }
-
-/* Mobile */
-@media only screen and (max-width: 400px) {
-    body {
-      background-color: lightblue;
-    }
-}
+  
