@@ -215,21 +215,25 @@ footer {
         flex-direction: column-reverse;
         align-items: center;
     }
-    .cta img{
-        display: none;
-    }
     .cta{
         display: block;
+    }
+    .cta img{
+        display: none;
     }
     .cta-text{
         margin-top: 70px;
     }
-    body{
-        background: blue;
-    }
 }
 /* Mobile */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 500px){
+    .container{
+        width: 100%
+    }
+    header nav{
+        width: 100%;
+        flex-direction: column;
+    }
     body{
         background: pink;
     }
