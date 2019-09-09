@@ -232,7 +232,16 @@ footer {
     }
     header nav{
         width: 100%;
+        margin-top: 10px;
         flex-direction: column;
+        text-align: center;
+    }
+    header nav a{
+        width: 100%;
+        font-size: 18px;
+        padding: 15px;
+        border: 1px solid grey;
+        margin-top: -1px;
     }
     body{
         background: pink;
