@@ -259,6 +259,13 @@ footer {
         width: 90%;
         margin: 45px auto 0 auto;
     }
+    .bottom-content{
+        flex-direction: column;
+    }
+    .main-content .bottom-content .text-content{
+        margin: 20px 0;
+        width: 100%;
+    }
     body{
         background: pink;
     }
