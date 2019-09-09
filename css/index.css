@@ -140,7 +140,7 @@ header .logo {
 }
 
 .main-content {
-  border-top: 1px solid black;
+  border-top: 2px solid black;
   margin-top: 76px;
   padding-top: 39px;
   display: flex;
@@ -208,6 +208,9 @@ footer {
 
 /* Tablet */
 @media screen and (max-width: 800px){
+    .container{
+        width: 750px;
+    }
     header{
         flex-direction: column-reverse;
         align-items: center;
