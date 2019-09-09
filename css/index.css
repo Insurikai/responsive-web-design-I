@@ -249,8 +249,15 @@ footer {
     .cta .cta-text{
         margin-top: 30px;
     }
-    .top-content{
+    .cta .cta-text h1{
+        font-size: 80%;
+    }
+    .main-content .top-content{
         flex-direction: column;
+    }
+    
+    .main-content .top-content .text-content{
+        width: 100%;
     }
     .main-content .top-content .text-content:last-child{
         margin-top: 30px;
@@ -265,9 +272,6 @@ footer {
     .main-content .bottom-content .text-content{
         margin: 20px 0;
         width: 100%;
-    }
-    body{
-        background: pink;
     }
 }
   
