@@ -249,6 +249,12 @@ footer {
     .cta .cta-text{
         margin-top: 30px;
     }
+    .top-content{
+        flex-direction: column;
+    }
+    .main-content .top-content .text-content:last-child{
+        margin-top: 30px;
+    }
     body{
         background: pink;
     }
