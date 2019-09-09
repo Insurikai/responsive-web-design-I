@@ -203,3 +203,19 @@ footer {
   justify-content: center;
   font-size: 14px;
 }
+/* Media Queries */
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
