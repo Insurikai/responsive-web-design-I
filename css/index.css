@@ -255,6 +255,10 @@ footer {
     .main-content .top-content .text-content:last-child{
         margin-top: 30px;
     }
+    .main-content .middle-img{
+        width: 90%;
+        margin: 45px auto 0 auto;
+    }
     body{
         background: pink;
     }
